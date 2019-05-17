@@ -1,0 +1,172 @@
+@import "module/header";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #f5f5f5;
+}   
+.addshop{
+    width: 100%;
+    height: 615px;
+}
+
+.addshop .shop-top{
+    width: 80%;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    margin-top: 75px;
+    background: #fff;
+    // border: 1px solid red;
+    font-size: 14px;
+}
+.addshop .shop-top span{
+    display: inline-block;
+    color: #666666;
+   
+}
+.addshop .shop-top span:nth-child(1){
+    width: 50%;
+    text-align: center;
+}
+.addshop .shop-top span:nth-child(2){
+    width: 10%;
+}
+.addshop .shop-top span:nth-child(3){
+    width: 11%;
+}
+.addshop .shop-top span:nth-child(4){
+    width: 10%;
+}
+.addshop .shop-top span:nth-child(5){
+    width: 13%;
+}
+.addshop .shop-center{
+    width: 80%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 15px;
+    margin: 0 auto;
+}
+.addshop .shop-center input{
+    width: 20px;
+    height: 20px;
+    background: #fff;
+}
+.addshop .shop-center p{
+    display: inline;
+}
+.addshop .shop-main{
+    width: 80%;
+    height: 160px;
+    margin: 0 auto;
+    background: #fff;
+    margin-bottom: 20px;
+    display: flex;
+}
+.addshop .shop-main .input1{
+    width: 20px;
+    height: 20px;
+   margin-top:66px;
+   margin-left:30px;
+}
+.addshop .shop-main img{
+    width: 101px;
+    height: 104px;
+    margin-top: 27px;
+    border: 1px solid #dddddd;
+}
+.addshop .shop-main .p1{
+    width: 300px;
+    height: 45px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #666666;
+}
+.addshop .shop-main p{
+    width: 130px;
+    height: 40px;
+    margin-top:30px;
+    margin-left:10px;
+    color: #222222;
+    font-weight: bolder;
+}
+.addshop .shop-main a{
+    float: left;
+    width: 30px;
+    height: 32px;
+    margin-top: 30px;
+    color: #222222;
+    border: 1px solid #dddddd;
+
+}
+.addshop .shop-main input{
+    width: 40px;
+    height: 32px;
+    margin-top: 30px;
+}
+.addshop .shop-bottom{
+    width: 80%;
+    height: 60px;
+    margin: 0 auto;
+    background: #fff;
+    position: relative;
+}
+
+.addshop .shop-bottom .yixuan{
+    width: 220px;
+    height: 40px;
+    margin-left: 740px;
+    float: left;
+}
+.addshop .shop-bottom .yixuan span{
+    width: 150px;
+    height: 40px;
+    margin-top: 5px;
+}
+.addshop .shop-bottom .yixuan span a{
+    color: #df371d;
+}
+.addshop .shop-bottom p{
+    width: 220px;
+    height: 20px;
+    margin-left: 748px;
+    color: #999999;
+    font-size: 12px;
+}
+.addshop .shop-bottom .allprice{
+    float: left;
+    width: 135px;
+    height: 60px;
+    background: #df371d;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.addshop .shop-bottom .allprice a{
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    width: 135px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.shop-tuijian{
+width: 100%;
+height: 200px;
+text-align: center;
+color: #666666;
+font-size: 26px;
+}

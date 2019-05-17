@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="/lib/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+        <header id="header-container"></header>
+        <!-- 轮播 -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                <img src="/imgs/lunbo1.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                <img src="/imgs/lunbo2.png" alt="">
+               </div>
+                <div class="swiper-slide">
+                <img src="/imgs/lunbo3.jpg" alt="">
+                </div>  
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>   
+        </div>
+    <!-- 手办 -->
+    <div class="shouban">
+        <div class="wrap">
+            <div class="shouban-top">
+                    <h3>精美手办</h3>
+                    <span>正品手办，品质重视</span>
+                    <h5>更多</h5>
+                    <div class="jia"></div>
+            </div>
+            <div class="shouban-bottom">
+                <img src="./imgs/shouban.png" alt="">
+            </div>
+        </div>  
+    </div>
+    <div class="list1">
+        <div class="wrap" id="list1">
+            <script type="text/html" id="list1-template">
+                 {{each list1 item}}
+                <dl>
+                        <dt>
+                            <a href="./html/detail.html?id{{item.id}}">
+                                <img src="{{item.image}}" alt="">
+                            </a>
+                            
+                        </dt>        
+                            <dd>
+                                <p>{{item.title}}</p>
+                                <p>￥{{item.price}}</p>
+                            </dd>
+                    </dl>
+                    {{/each}}
+            </script>
+            
+            
+        </div>
+    </div>
+   
+    <div class="shuma">
+            <div class="wrap">
+                <div class="shuma-top">
+                        <h3>数码</h3>
+                        <span>王者3C，网游戏，更刺激</span>
+                        <h5>更多</h5>
+                        <div class="jia"></div>
+                </div>
+                <div class="shuma-bottom">
+                    <img src="./imgs/datu1.png" alt="">
+                </div>
+            </div>  
+        </div>
+    
+        <div class="list2">
+                <div class="wrap" id="list2">
+                    <script type="text/html" id="list2-template">
+                        {{each list2 item}}
+                        <dl>
+                            <dt>
+                                <a href="/html/detail.html?id{{item.id}}">
+                                    <img src="{{item.image}}" alt="">
+                                </a>
+                            </dt>        
+                            <dd>
+                                <p><a href="javascript:;"></a>{{item.title}}</p>
+                                <p>￥{{item.price}}</p>
+                            </dd>
+                        </dl>
+                        {{/each}}
+                    </script>  
+                </div>
+        </div>
+       
+            <div class="shenghuo">
+                    <div class="wrap">
+                        <div class="shenghuo-top">
+                                <h3>生活周边</h3>
+                                <span>游戏时代，贴心你的陪伴</span>
+                                <h5>更多</h5>
+                                <div class="jia"></div>
+                        </div>
+                        <div class="shenghuo-bottom">
+                            <img src="./imgs/sheghuo.png" alt="">
+                        </div>
+                    </div>  
+            </div>
+
+
+
+                <div class="list3">
+                        <div class="wrap" id="list3">
+                            <script id="list3-template" type="text/html">
+                                {{each list3 item}}
+                               <dl>
+                                <dt>
+                                    <img src="{{item.image}}" alt="">
+                                </dt>        
+                                    <dd>
+                                        <p>{{item.title}}</p>
+                                        <p>￥{{item.price}}</p>
+                                    </dd>
+                                </dl>   
+                                {{/each}}
+                            </script>
+                        </div>
+                </div>
+
+                    <div class="fushi">
+                            <div class="wrap">
+                                <div class="fushi-top">
+                                        <h3>生活周边</h3>
+                                        <span>游戏时代，贴心你的陪伴</span>
+                                        <h5>更多</h5>
+                                        <div class="jia"></div>
+                                </div>
+                                <div class="fushi-bottom">
+                                    <img src="./imgs/fushi.png" alt="">
+                                </div>
+                            </div>  
+                    </div>
+                        <div class="list4">
+                            <div class="wrap" id="list4">
+                                <script type="text/html" id="list4-template">
+                                        {{each list4 item}}
+                                        <dl>
+                                            <dt>
+                                                <img src="{{item.image}}" alt="">
+                                            </dt>        
+                                                    <dd>
+                                                        <p>{{item.title}}</p>
+                                                        <p>￥{{item.price}}</p>
+                                                    </dd>
+                                            </dl>    
+                                        {{/each}}
+                                 </script>
+                            </div>            
+                        </div>
+                        <footer id="footer-container"></footer>
+                        <script src="/lib/requirejs/require.js" data-main="/js/index"></script>
+
+
+</body>
+</html>

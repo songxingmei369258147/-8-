@@ -1,0 +1,117 @@
+
+footer{
+    float: left;
+    width: 100%;
+    height: 398px;
+    background: #1b1b1b;
+}
+ul li{
+    list-style: none;
+}
+footer .wrap{
+    width: 100%;
+    height: 398px;
+    margin: 0 auto;
+}
+footer .wrap .footer-top{
+    width: 100%;
+    height: 232px;
+    padding-top: 50px;
+    border-bottom: 1px solid #ffffff;
+}
+footer .wrap .footer-top .left{
+    float: left;
+    width: 317px;
+    height: 139px;
+    border-right: 1px solid #ffffff;
+    margin-bottom: 45px;
+    
+}
+footer .wrap .footer-top .left img{
+    padding-left: 78px;
+    width: 170px;
+    height: 67px;
+}
+footer .wrap .footer-top .center{
+    float: left;
+    width: 395px;
+    height: 139px;
+    border-right: 1px solid #ffffff;
+}
+footer .wrap .footer-top .center ul{
+    width: 393px;
+    height: 45px;
+}
+footer .wrap .footer-top .center ul li{
+    float: left;
+    width: 196px;
+    height: 45px;
+    font-size: 13px;
+}
+footer .wrap .footer-top .center ul li:nth-child(4){
+    float: right;
+    width: 196px;
+    height: 45px;
+}
+footer .wrap .footer-top .center ul li img{
+    width: 34px;
+    height: 33px;
+    padding-left: 35px;
+}
+footer .wrap .footer-top .center ul li a{
+    float: right;
+    width: 120px;
+    height: 45px;
+   color: #ffffff;
+    
+}
+footer .wrap .footer-top .right{
+   display: flex;
+   width: 400px;
+   height: 232px;
+
+  
+}
+footer .wrap .footer-top .right dl{
+    width: 102px;
+    height: 139px;
+    padding-left: 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .wrap .footer-top .right dl dt{
+    width: 102px;
+    height: 105px;
+    align-items: center;
+
+}
+footer .wrap .footer-top .right dl dt img{
+    width: 102px;
+    height: 105px;
+    padding-left: 40px;
+    align-items: center;
+}
+footer .wrap .footer-top .right dl dd{
+    width: 102px;
+    height: 35px;
+    color: #ffffff;
+    
+   
+}
+footer .wrap .footer-bottom{
+    width: 100%;
+    height: 165px;
+}
+footer .wrap .footer-bottom .box{
+    width: 75%;
+    height: 100px;
+   margin: 0 auto;
+   /* border: 1px solid red; */
+}
+footer .wrap .footer-bottom .box p{
+    height: 19px;
+    line-height: 28px;
+    font-size: 13px;
+    color: #ffffff;
+    text-align: center;
+}

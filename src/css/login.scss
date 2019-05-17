@@ -1,0 +1,75 @@
+// @import "module/header";
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.login{
+    width: 560px;
+    height: 480px;
+    margin: 100px auto;
+    border: 1px solid #666666;
+}
+
+.login h4{
+    width:100%;
+    height: 170px;
+    line-height: 170px;
+    font-size: 26px;
+    margin-left: 200px;
+}
+.login p{
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    margin-left: 150px;
+}
+.login input{
+    width: 224px;
+    height: 35px;
+    margin-top: 13px;
+    margin-left: 150px;
+}
+.login .days{
+    margin-left: 150px;
+    width: 150px;
+    height: 20px;
+    margin-top: 10px;
+    font-size: 13px;
+    // border: 1px solid red;
+    position: relative;
+    left: 0px;
+    top: 0px;
+
+}
+.login .days .checked{
+   width: 10px;
+   height: 10px;
+   position: absolute;
+   left: -164px;
+   top: 8px;
+}
+.login button{
+    width: 224px;
+    height: 35px;
+    margin-top: 13px;
+    margin-left: 150px;
+    background: #86ce2f;
+    color: #ffffff;
+}
+.login span{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 285px;
+    width: 255px;
+    height: 20px;
+    // border: 1px solid red;
+    font-size: 13px;
+}
+.login span a{
+    color: #666666;
+}

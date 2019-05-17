@@ -1,0 +1,150 @@
+@import "module/header";
+@import "module/footer";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #f5f5f5 ;
+}
+.list{
+    width: 90%;
+    height: 35px;
+    margin-left: 35px;
+    display: flex;
+    margin-top: 20px;
+}
+.list h4{
+    float: left;
+    width: 66px;
+    height: 35px;
+    line-height: 35px;
+    font-weight: 500;
+    background: url(/imgs/sprite.png)no-repeat 18px -216px !important;
+}
+.list span{
+    width: 30px;
+    height: 35px;
+    line-height: 35px;
+}
+.list-top{
+    width: 96%;
+    height: 95px;
+    margin: 0 auto;
+    background: #ffff !important;
+}
+.list-top .list-top-top{
+    display: flex;
+    width: 96%;
+    height: 47px;
+    margin: 0 auto;
+    border-bottom: 1px solid #b1b1b1 !important;
+}
+
+.list-top .list-top-top h4{
+   float: left;
+    width: 66px;
+    height: 47px;
+    line-height: 47px;
+}
+.list-top .list-top-top ul{
+    display: flex;
+    width: 506px;
+    height: 47px;
+    line-height: 47px;
+    justify-content: space-between;
+}
+
+.list-top .list-top-top ul li{
+   font-size: 13px;
+  
+   
+}
+.list-top .list-top-top ul li .active  a{
+    color: #333333 !important;
+   
+    
+ }
+.list-top .list-top-top ul li a{
+    color: #666666 !important;
+    text-decoration: none;
+}
+
+
+.list-top .list-top-bottom{
+    width: 96%;
+    height: 47px;
+    margin: 0 auto;
+}
+.list-top .list-top-bottom h4{
+    float: left;
+    width: 53px;
+    height: 47px;
+    line-height: 47px;
+}
+.list-center{
+    width: 96%;
+    height: 1000px;
+    margin: 0 auto;
+    background: #ffff;
+    margin-top:20px;
+} 
+.list-center .wrap{
+    width: 96%;
+    height: 784px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+
+.list-center .wrap dl{
+    text-align: center;
+    margin-left: 10px;
+    width: 20%;
+    height: 287px;
+    border: 1px solid #b1b1b1 !important;
+
+}
+.list-center .wrap dl:hover{
+    transition: all .5s;
+    box-shadow: 5px 5px 5px #473e3e,-5px 5px 5px #473e3e;
+}
+.list-center .wrap dl dt{
+    width:100%;
+    height: 215px;
+}
+.list-center .wrap dl dt img{
+    width: 227px;
+    height: 215px;
+}
+.list-center .wrap dl dd{
+    width: 100%;
+    height: 72px;
+    
+}
+.list-center .wrap dl dd p{
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    
+}
+.list-center .wrap dl dd p a{
+    color: #333333 !important;
+}
+.list-center .wrap dl dd p:nth-child(2) a{
+    color:red !important;
+}
+

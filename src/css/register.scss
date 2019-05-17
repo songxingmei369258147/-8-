@@ -1,0 +1,56 @@
+// @import "module/header";
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.register{
+    width: 560px;
+    height: 480px;
+    margin: 100px auto;
+    border: 1px solid #666666;
+}
+
+.register h4{
+    width:100%;
+    height: 170px;
+    line-height: 170px;
+    font-size: 26px;
+    margin-left: 200px;
+}
+.register p{
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    margin-left: 150px;
+}
+.register input{
+    width: 224px;
+    height: 35px;
+    margin-top: 13px;
+    margin-left: 150px;
+}
+.register button{
+    width: 224px;
+    height: 35px;
+    margin-top: 13px;
+    margin-left: 150px;
+    background: #86ce2f;
+    color: #ffffff;
+}
+.register span{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 285px;
+    width: 255px;
+    height: 20px;
+    // border: 1px solid red;
+    font-size: 13px;
+}
+.register span a{
+    color: #666666;
+}

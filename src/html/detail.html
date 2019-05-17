@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>详情页</title>
+    <link rel="stylesheet" href="../css/detail.css">
+    <script src="/lib/requirejs/require.js" data-main="/js/detail"></script>
+</head>
+<body>
+        <header id="header-container"></header>
+    <div class="detail">
+            <div class="shopstart">
+                    <h4>商品首页</h4>
+                    <span>孙尚香智能机器人音箱</span>
+            </div>       
+            <div class="detail-top" id="detail">
+                    <script type="text/html" id="detail-template">
+              
+                       
+                            <div class="left" >
+                                <div class="BJ-left">
+                                    <div  >
+                                            <a href="javascript:;">
+                                                <img class="Bjimg" src="{{data.image[0]}}" data-zoom-image="{{data.image[0]}}"/>
+                                            </a>
+                                           
+                                    </div>
+                                    <div class="minimg" id="gal1">
+                                            <a href="javascript:;"
+                                             data-image="{{data.image[1]}}" data-zoom-image="{{data.image[2]}}" > 
+                                            <img src="{{data.image[1]}}"/>
+                                            </a>
+                                            <a href="javascript:;"
+                                            data-image="{{data.image[2]}}" data-zoom-image="{{data.image[2]}}">
+                                            <img src="{{data.image[2]}}"/>
+                                            </a>
+                                            <a href="javascript:;"
+                                            data-image="{{data.image[3]}}" data-zoom-image="{{data.image[3]}}">
+                                            <img src="{{data.image[3]}}"/>
+                                            </a>
+                                            <a href="javascript:;"
+                                            data-image="{{data.image[4]}}" data-zoom-image="{{data.image[4]}}">
+                                            <img src="{{data.image[4]}}"/>
+                                            </a>
+                                        </div> 
+                                </div>
+                                
+                            </div>
+                            <div class="right" >
+                                <h4>{{data.title}}</h4>
+                                <p>￥{{data.price}}</p>
+                                <div class="zuhe">
+                                    <span>组合购</span>
+                                    <span>改商品正在参加<a>详情</a></span>
+                                </div>
+                                <div class="price">
+                                    <span>已售：{{data.yishou}}</span>
+                                    <span>累计评价：{{data.addji}}</span>
+                                </div> 
+                                <div class="num">
+                                    <span>数量</span>
+                                    <div class="jiajia">
+                                        <input type="text" name="" id="" value="-">
+                                        <input type="text" name="" id="addnum" value="1">
+                                        <input type="text" name="" id="" value="+">
+                                        <p>(库存充足)</p>
+                                    </div>
+                                </div>
+                                    <div class="addshop">
+                                        <span id="add-cart"><a href="/html/addshop.html"  data-id={{data.id}}>加入购物车</a></span>
+                                        <span><a href="/html/addshop.html">立即购买</a></span>
+                                        <p><a href="#"> 收藏</a></p>
+                                    </div>
+                            </div>
+                    </script>
+            </div>
+                
+       
+            
+                
+           
+            
+        <div class="detail-bottom">
+        <div class="top">
+            <h4>商品详情</h4>
+            <h4>用户点评</h4>
+            <h4>联系商家</h4>
+        </div>
+        <div class="shopname">
+            <span>商品名称：孙尚香智能机器人音箱</span>
+            <span>店铺：官方商城</span>
+            <span>上架时间：2019-04-08</span>
+            <span>商品毛重：800g</span>
+            <p>商城：王者荣耀</p>
+        </div>
+        <div class="deta-img-bj">
+            <p><img src="/imgs/detailBj-1.jpg" alt=""></p>
+            <p><img src="/imgs/detailBj-2.jpg" alt=""></p>
+            <p><img src="/imgs/detailBj-3.jpg" alt=""></p>
+            <p><img src="/imgs/detailBj-4.jpg" alt=""></p>
+            <p><img src="/imgs/detailBj-5.jpg" alt=""></p>
+            <p><img src="/imgs/detailBj-6.jpg" alt=""></p>
+            <p><img src="/imgs/detailBj-7.jpg" alt=""></p>
+            <p><img src="/imgs/detailBj-8.jpg" alt=""></p>
+            <p><img src="/imgs/detailBj-9.jpg" alt=""></p>
+            <p><img src="/imgs/detailBj-10.jpg" alt=""></p>
+            <p><img src="/imgs/detailBj-11.jpg" alt=""></p>
+        </div>
+        </div>
+    </div>
+<footer id="footer-container"></footer>
+<script src="/lib/requirejs/require.js" data-main="/js/detail"></script>
+        
+</body>
+</html>

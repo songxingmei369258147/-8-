@@ -1,0 +1,178 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+a{
+    color: #fff !important;
+}
+header{
+    width: 100%;
+    height: 180px;
+    background: #0e0e0f;
+    /* border: 1px solid red; */
+}
+
+
+header .header-top{
+  float: left;
+  width: 100%;
+  height: 130px;
+  line-height: 130px;
+  border-bottom: 1px solid #222222; 
+  
+}
+header .header-top .logo-big{
+    float: left;
+    width: 170px;
+    height: 130px;
+    background:url(/imgs/ico-comm.png)no-repeat -156px -180px;
+    
+}
+header .header-top img{
+ float: left;
+  width: 94px;
+  height: 72px;
+  margin-top: 38px;
+  margin-left: 45px;
+}
+header .header-top form{
+    float: left;
+    width: 240px;
+    height: 43px;
+    margin-left: 175px;
+    margin-top: 70px;
+    background: #242424;
+    border-radius: 20px;
+    font-size: 13px;
+    color: #fff; 
+}
+header .header-top form .srarch{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 14px;
+    margin-left: 8px;
+    background: url(/imgs/ico-comm.png)no-repeat -79px 0px;
+}
+header .header-top form input{
+    float: left;
+    width: 130px;
+    height: 38px;
+    margin-top: 5px;
+    margin-left: 7px;
+    border: none;
+    outline: none;
+    background: #242424;
+}
+header .header-top .login{
+    float: left;
+    margin-left: 59px;
+    margin-top: 79px;
+    width: 100px;
+    height: 35px;
+    background: url(/imgs/ico-comm.png)no-repeat 0px -279px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+header .header-top .login a{
+    float: left; 
+    font-size: 13px;
+    width: 58px;
+    height: 21px;
+    position: absolute;
+    top: -51px;
+    left: 27px;
+    color: #fff;
+    
+
+}
+header .header-top .welcome{
+    float: left;
+    width: 162px;
+    height: 35px;
+    margin-top: 79px;
+    position: relative;
+    display: none;
+}
+
+header .header-top .welcome span{
+    float: left;
+    width: 90px;
+    height: 35px;
+    color: #fff;
+    position: absolute;
+    top: -48px;
+    left: 0px;
+}
+
+header .header-top .welcome a{
+    color: #fff;
+    position: absolute;
+    top: -48px;
+    left: 97px;
+}
+
+
+
+header .header-top .shop{
+   display: flex;
+    width: 120px;
+    height: 35px;
+    margin-top: 79px;
+    margin-left: 38px;
+    // border: 1px solid red; 
+    // position: relative;
+    
+}
+header .header-top .shop .chart{
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: url(/imgs/ico-comm.png)no-repeat -7px -62px;
+    
+}
+header .header-top .shop a{
+    font-size: 13px;
+    // position: absolute;
+    // top: -51px;
+    // left: 27px;
+    display: inline-block;
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+
+}
+header .header-top .shop  a #gwc{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    background:red;
+    text-align: center;
+    color:#fff;
+    margin-top: 10px;
+    position: absolute;
+     top: 77px;
+     left: 945px;
+     font-size: 13px;
+}
+header .header-bottom{
+    float: left;
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid #fff; */
+    
+}
+header .header-bottom .jingpin{
+    float: left;
+    width: 90%;
+    /* border: 1px solid red; */
+}
+header .header-bottom .shopALLL{
+    float: left;
+    width: 10%;
+    /* border: 1px solid red; */
+}

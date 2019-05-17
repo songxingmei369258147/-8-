@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>列表页</title>
+    <script src="/lib/requirejs/require.js" data-main="/js/list"></script>
+    <link rel="stylesheet" href="/css/list.css"> 
+</head>
+<body>  
+        <header id="header-container"></header>
+   <div class="list">
+        
+    <h4>首页</h4>
+    <span>热卖</span>
+   </div>
+   <div class="list-top">
+     <div class="list-top-top">
+         <h4>分类：</h4>
+         <ul>
+             <li class="active"><a href="#">全部</a></li>
+             <li><a href="#">数码3c</a></li>
+             <li><a href="#">服饰</a></li>
+             <li><a href="#">手办模块</a></li>
+             <li><a href="#">毛绒玩偶</a></li>
+             <li><a href="#">生活用品</a></li>
+             <li><a href="#">智能机器人</a></li>
+         </ul>
+     </div>
+     <div class="list-top-bottom">
+         <h4>排序</h4>
+     </div>
+   </div>
+   <div class="list-center" >
+       <div class="wrap" id="list">
+            <script type="text/html" id="list-template">
+                {{each list item}}
+                <dl>
+                   
+                    <dt><a href="/html/detail.html?id={{item.id}}"><img src="{{item.image}}"/></a></dt>
+                    <dd>
+                        <p><a href="/html/detail.html?id={{item.id}}">{{item.title}}</a></p>
+                        <p><a href="/html/detail.html?id={{item.id}}">￥{{item.price}}</a></p>
+                    </dd>
+            </dl>
+            {{/each}}
+            
+            </script>    
+       </div>
+       
+       
+   </div>
+   <footer id="footer-container"></footer>
+</body>
+</html>

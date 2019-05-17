@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>加入购物车</title>
+    <link rel="stylesheet" href="/css/addshop.css">
+</head>
+
+<body>
+  <div id="box">
+    <header id="header-container"></header>
+    <div class="addshop" id="shop-cart">
+      <div class="shop-top">
+        <span>商品信息</span>
+        <span>单价（元）</span>
+        <span>数量</span>
+        <span>金额（元）</span>
+        <span>操作</span>
+      </div>
+      <div class="shop-center"  >
+          <input type="checkbox" checked="checked" class="check"id="allcheck">
+          <p>王者荣耀供应商：官方商城</p>  
+      </div>
+      <ul id="list-container">
+
+      </ul>
+      <script type="text/html" id="cart-template">
+        {{each cart item}}
+      
+      <div class="shop-main" id="shop-main">
+       <input class="input1" type="checkbox" id="recheck">
+       <img src="{{item.image[0]}}" alt="">
+       <p class="p1">{{item.title}}</p>
+       <p>{{item.price}}</p>
+        <a href="javascript:;">-</a>
+        <input 1 type="text"data-id="1">
+        <a href="javascript:;">+</a>
+        <p>58.00</p>
+        <p id="delBtn">删除</p>
+      </div>
+    {{/each}}
+  </div>
+    <div class="shop-bottom"> 
+        <div class="yixuan">
+          <span>已选商品<a href="javascript:;">0</a></span>
+          <span>总价<a href="javascript:;">0</a></span>
+        </div>
+      <p>不含运费和其他优惠</p>
+   <div class="allprice"><a href="javasfcript:;">去结算</a></div>
+  </div>
+  </script>
+
+    <div class="shop-tuijian">为你推荐</div>
+  </div>
+    <script src="/lib/requirejs/require.js"data-main="/js/addshop.js"></script>
+</body>
+</html>

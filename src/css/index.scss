@@ -1,0 +1,475 @@
+
+//@import "module/base";
+@import "module/header";
+@import "module/footer";
+*{
+    padding: 0;
+    margin: 0;
+}
+.swiper-container{
+    float: left;
+    width: 100%;
+    height: 318px;  
+    margin-bottom: 53px;
+    // border:1px solid red;
+    
+}
+.swiper-container .swiper-wrapper{
+    width: 100%;
+    height: 318px; 
+}
+
+.swiper-container .swiper-wrapper  img{
+    float: left;
+    width: 100%;
+    height: 318px;
+}
+
+
+
+.shouban{
+    float: left;
+    width: 100%;
+    height: 290px;
+    margin-bottom: 20px;
+    /* border: 1px solid red; */
+}
+.shouban .wrap{
+    
+     width: 90%;
+     height: 290px;
+     margin: 0 auto;
+     /* border: 1px solid red; */
+    
+}
+.shouban .wrap .shouban-top{
+    float: left;
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+.shouban .wrap .shouban-top .h3{
+    float: left;
+    width: 140px;
+    height: 33px;
+    font-size: 26px;
+}
+.shouban .wrap .shouban-top span{
+    width: 128px;
+    height: 33px;
+    font-size: 13px;
+    position: absolute;
+    left: 121px;
+    top: 12px;
+}
+.shouban .wrap .shouban-top h5{
+    width: 35px;
+    height: 33px;
+    line-height: 33px;
+    font-size: 13px;
+    position: absolute;
+    left: 1072px;
+    top: 12px;
+}
+.shouban .wrap .shouban-top .jia{
+    float: left;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 1100px;
+    top: 14px;
+    background: url(/imgs/ico-comm.png)no-repeat -38px 2px;
+}
+.shouban .wrap .shouban-bottom{
+    width: 100%;
+    height: 240px;
+}
+.shouban .wrap .shouban-bottom img{
+    width: 100%;
+    height: 240px;
+}
+.list1{
+    width: 100%;
+    float: left;
+    height: 359px;
+    /* border: 1px solid red; */
+    margin-bottom: 50px;
+}
+.list1 .wrap{
+    width: 90%;
+    height: 359px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.list1 .wrap dl{
+    width: 25%;
+    height: 356px;
+    border: 1px solid #eeeeee;
+    /* position: relative; */
+}
+
+.list1 .wrap dl dt img{
+    width: 248px;
+    height: 286px;
+}
+.list1 .wrap dl dd{
+    width: 248px;
+    height: 72px;
+    /* border: 1px solid red; */
+
+}
+.list1 .wrap dl dd p{
+    width: 248px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 13px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.list1 .wrap dl dd p:nth-child(2){
+    color: red;
+
+}
+
+.shuma{
+    float: left;
+    width: 100%;
+    height: 290px;
+    margin-bottom: 20px;
+    /* border: 1px solid red; */
+}
+.shuma .wrap{
+    
+     width: 90%;
+     height: 290px;
+     margin: 0 auto;
+     /* border: 1px solid red; */
+    
+}
+.shuma .wrap .shuma-top{
+    float: left;
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+.shuma .wrap .shuma-top h3{
+    float: left;
+    width: 140px;
+    height: 33px;
+    font-size: 26px;
+}
+.shuma .wrap .shuma-top span{
+    width: 148px;
+    height: 33px;
+    font-size: 13px;
+    position: absolute;
+    left: 121px;
+    top: 12px;
+}
+.shuma .wrap .shuma-top h5{
+    width: 35px;
+    height: 33px;
+    line-height: 33px;
+    font-size: 13px;
+    position: absolute;
+    left: 1072px;
+    top: 12px;
+}
+.shuma .wrap .shuma-top .jia{
+    float: left;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 1100px;
+    top: 14px;
+    background: url(/imgs/ico-comm.png)no-repeat -38px 2px;
+}
+.shuma .wrap .shuma-bottom{
+    width: 100%;
+    height: 240px;
+}
+.shuma .wrap .shuma-bottom img{
+    width: 100%;
+    height: 240px;
+}
+.list2{
+    width: 100%;
+    float: left;
+    height: 359px;
+    /* border: 1px solid red; */
+    margin-bottom: 50px;
+}
+.list2 .wrap{
+    width: 90%;
+    height: 359px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.list2 .wrap dl{
+    width: 25%;
+    height: 356px;
+    border: 1px solid #eeeeee;
+    /* position: relative; */
+}
+
+.list2 .wrap dl dt img{
+    width: 248px;
+    height: 286px;
+}
+.list2 .wrap dl dd{
+    width: 248px;
+    height: 72px;
+    /* border: 1px solid red; */
+
+}
+.list2 .wrap dl dd p{
+    width: 248px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 13px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.list2 .wrap dl dd p:nth-child(2){
+    color: red;
+
+}
+
+
+.shenghuo{
+    float: left;
+    width: 100%;
+    height: 290px;
+    margin-bottom: 20px;
+    /* border: 1px solid red; */
+}
+.shenghuo .wrap{
+    
+     width: 90%;
+     height: 290px;
+     margin: 0 auto;
+     /* border: 1px solid red; */
+    
+}
+.shenghuo .wrap .shenghuo-top{
+    float: left;
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+.shenghuo .wrap .shenghuo-top h3{
+    float: left;
+    width: 140px;
+    height: 33px;
+    font-size: 26px;
+}
+.shenghuoa .wrap .shenghuo-top span{
+    width: 170px;
+    height: 33px;
+    font-size: 13px;
+    position: absolute;
+    left: 121px;
+    top: 12px;
+}
+.shenghuo .wrap .shenghuo-top h5{
+    width: 35px;
+    height: 33px;
+    line-height: 33px;
+    font-size: 13px;
+    position: absolute;
+    left: 1072px;
+    top: 12px;
+}
+.shenghuo .wrap .shenghuo-top .jia{
+    float: left;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 1100px;
+    top: 14px;
+    background: url(/imgs/ico-comm.png)no-repeat -38px 2px;
+}
+.shenghuo .wrap .shenghuo-bottom{
+    width: 100%;
+    height: 240px;
+}
+.shenghuo .wrap .shenghuo-bottom img{
+    width: 100%;
+    height: 240px;
+}
+
+.list3{
+    width: 100%;
+    float: left;
+    height: 359px;
+    /* border: 1px solid red; */
+    margin-bottom: 50px;
+}
+.list3 .wrap{
+    width: 90%;
+    height: 359px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.list3 .wrap dl{
+    width: 25%;
+    height: 356px;
+    border: 1px solid #eeeeee;
+    /* position: relative; */
+}
+
+.list3 .wrap dl dt img{
+    width: 248px;
+    height: 286px;
+}
+.list3 .wrap dl dd{
+    width: 248px;
+    height: 72px;
+    /* border: 1px solid red; */
+
+}
+.list3 .wrap dl dd p{
+    width: 248px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 13px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.list3 .wrap dl dd p:nth-child(2){
+    color: red;
+
+}
+
+
+
+
+.fushi{
+    float: left;
+    width: 100%;
+    height: 290px;
+    margin-bottom: 20px;
+    /* border: 1px solid red; */
+}
+.fushi .wrap{
+    
+     width: 90%;
+     height: 290px;
+     margin: 0 auto;
+     /* border: 1px solid red; */
+    
+}
+.fushi .wrap .fushi-top{
+    float: left;
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+.fushi .wrap .fushi-top h3{
+    float: left;
+    width: 140px;
+    height: 33px;
+    font-size: 26px;
+}
+.fushi .wrap .fushi-top span{
+    width: 170px;
+    height: 33px;
+    font-size: 13px;
+    position: absolute;
+    left: 121px;
+    top: 12px;
+}
+.fushi .wrap .fushi-top h5{
+    width: 35px;
+    height: 33px;
+    line-height: 33px;
+    font-size: 13px;
+    position: absolute;
+    left: 1072px;
+    top: 12px;
+}
+.fushi .wrap .fushi-top .jia{
+    float: left;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 1100px;
+    top: 14px;
+    background: url(/imgs/ico-comm.png)no-repeat -38px 2px;
+}
+.fushi .wrap .fushi-bottom{
+    width: 100%;
+    height: 240px;
+}
+.fushi .wrap .fushi-bottom img{
+    width: 100%;
+    height: 240px;
+}
+
+
+
+.list4{
+    width: 100%;
+    float: left;
+    height: 359px;
+    /* border: 1px solid red; */
+    // margin-bottom: 50px;
+ }
+.list4 .wrap{
+    width: 90%;
+    height: 359px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.list4 .wrap dl{
+    width: 25%;
+    height: 356px;
+    border: 1px solid #eeeeee;
+    /* position: relative; */
+}
+// .list3 .wrap dl dt{
+//     // position: absolute;
+//    /* top: 0px;
+//    bottom: 0px;
+//    left: 0px;
+//    right: 0px;
+//    margin: 0 auto; */
+// }
+.list4 .wrap dl dt img{
+    width: 248px;
+    height: 286px;
+}
+.list4 .wrap dl dd{
+    width: 248px;
+    height: 72px;
+    /* border: 1px solid red; */
+
+}
+.list4 .wrap dl dd p{
+    width: 248px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 13px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.list4 .wrap dl dd p:nth-child(2){
+    color: red;
+
+} 
